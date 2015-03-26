@@ -16,10 +16,12 @@
 - install luarocks
 - luaricks install luasocket
 
-### login into telegram (if you haven't)
+## usage
+
+### first launch: log in to telegram
 
 - ./login.sh
-- Enter your phone number (++xx.....) and the received code.
+- Enter your phone number (+xx.....) and the received code.
 - The application will close
 
 ### launch the server
@@ -28,7 +30,12 @@
 
 ### use it!
 
-Connect to port 4001 to receive all incoming messages in JSON format and send tg commands (send messages, media, etc.)
+- telnet localhost 4001
 
-Connect to port 4002 to send tg commands in an interactive fashion. 
+You will receive all incoming messages in JSON format. 
+
+- (in telnet) msg user#xxxx Hi there!
+
+You can use any tg commands. Refer to https://github.com/vysheng/tg for a list of the available commands.
+
 
