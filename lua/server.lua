@@ -5,7 +5,7 @@
 started = 0
 our_id = 0
 
-local JSON = (loadfile "JSON.lua")()
+local JSON = (loadfile "lua/JSON.lua")()
 local socket = require("socket")
 
 local MY_SOCKET = 4001
