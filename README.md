@@ -4,7 +4,7 @@
 
 ### clone this repository
 
-- git clone --recursive https://github.com/voiser/telegram-for-robots
+- $ git clone --recursive https://github.com/voiser/telegram-for-robots
 
 ### compile submodule tg
 
@@ -14,19 +14,19 @@
 ### install some dependencies
 
 - install luarocks
-- luaricks install luasocket
+- $ luaricks install luasocket
 
 ## usage
 
 ### first launch: log in to telegram
 
-- ./login.sh
+- $ ./login.sh
 - Enter your phone number (+xx.....) and the received code.
 - The application will close
 
 ### launch the server
 
-- ./launch.sh
+- $ ./launch.sh
 
 ## How does it work?
 
@@ -40,6 +40,7 @@ Refer to https://github.com/vysheng/tg for a list of the available commands (or 
 
 You have a very simple python3 example:
 
-- python3 python3/test.py
+- $ cd python3 
+- $ python3 test.py
 
 Fell free to translate it to other language, and don't forget to send me the pull request.
