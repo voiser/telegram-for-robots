@@ -38,6 +38,8 @@ Refer to https://github.com/vysheng/tg for a list of the available commands (or 
 
 ## How do I create my bot?
 
+There's a simple example bot written in several languages:
+
 ### Python 3
 
 - $ cd python3 
@@ -47,6 +49,11 @@ Refer to https://github.com/vysheng/tg for a list of the available commands (or 
 
 - $ cd ruby
 - $ ruby test.rb
+
+### Groovy
+
+- $ cd groovy
+- $ groovy test.groovy
 
 ### Other languages
 
