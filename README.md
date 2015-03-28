@@ -28,7 +28,7 @@
 
 - ./launch.sh
 
-### How does it work?
+## How does it work?
 
 - connect to port 4001 to receive all incoming messages in JSON format.
 - connect to port 4002 to send commands (send text, video, etc)
@@ -36,7 +36,7 @@
 Refer to https://github.com/vysheng/tg for a list of the available commands (or use the help command)
 
 
-### How do I create my bot?
+## How do I create my bot?
 
 You have a very simple python3 example:
 
