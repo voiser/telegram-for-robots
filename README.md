@@ -38,9 +38,16 @@ Refer to https://github.com/vysheng/tg for a list of the available commands (or 
 
 ## How do I create my bot?
 
-You have a very simple python3 example:
+### Python 3
 
 - $ cd python3 
 - $ python3 test.py
 
-Fell free to translate it to other language, and don't forget to send me the pull request.
+### Ruby
+
+- $ cd ruby
+- $ ruby test.rb
+
+### Other languages
+
+Feel free to translate the example to other language (and don't forget to send me the pull request)
