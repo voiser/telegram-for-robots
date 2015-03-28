@@ -1,30 +1,30 @@
 # telegram-for-robots
 
-## installation
+## Installation
 
-### clone this repository
+### Clone this repository
 
 - $ git clone --recursive https://github.com/voiser/telegram-for-robots
 
-### compile submodule tg
+### Compile submodule tg
 
 - follow the instructions found in: https://github.com/vysheng/tg
 - please be aware of this bug: https://github.com/vysheng/tg/issues/440
 
-### install some dependencies
+### Install some dependencies
 
 - install luarocks
 - $ luaricks install luasocket
 
-## usage
+## Usage
 
-### first launch: log in to telegram
+### First launch: log in to telegram
 
 - $ ./login.sh
 - Enter your phone number (+xx.....) and the received code.
 - The application will close
 
-### launch the server
+### Launch the server
 
 - $ ./launch.sh
 
@@ -34,7 +34,6 @@
 - connect to port 4002 to send commands (send text, video, etc)
 
 Refer to https://github.com/vysheng/tg for a list of the available commands (or use the help command)
-
 
 ## How do I create my bot?
 
