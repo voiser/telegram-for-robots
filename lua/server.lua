@@ -37,7 +37,7 @@ end
 
 function cron()
   postpone (cron, false, 0.1)
-  coroutine.resume (clientsCoroutine)
+  --coroutine.resume (clientsCoroutine)
   coroutine.resume (serverCoroutine)
 end
 
@@ -63,8 +63,8 @@ function runTCPServer()
   server:setoption("reuseaddr", true)
   server:bind("localhost", 4001)
   server:listen(16)
-  commands = socket.tcp()
-  commands:connect("localhost", 4002)
+  --commands = socket.tcp()
+  --commands:connect("localhost", 4002)
   while (true) do
     server:settimeout(0.01)
     local client, err = server:accept()
@@ -83,6 +83,7 @@ function readClients()
       if line == nil then
         table.remove(i)
       else
+        print("Received from socket", line)
         dispatch(line)
       end
     end
@@ -98,4 +99,4 @@ stop_server = 0
 clients = {}
 commands = 0
 serverCoroutine = coroutine.create(runTCPServer)
-clientsCoroutine = coroutine.create(readClients)
+-- clientsCoroutine = coroutine.create(readClients)

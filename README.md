@@ -34,8 +34,9 @@
 
 You will receive all incoming messages in JSON format. 
 
-- (in telnet) msg user#xxxx Hi there!
+- telnet localhost 4002
+- msg user#xxxx Hi there!
 
-You can use any tg commands. Refer to https://github.com/vysheng/tg for a list of the available commands.
+Refer to https://github.com/vysheng/tg for a list of the available commands (or use the help command)
 
 
